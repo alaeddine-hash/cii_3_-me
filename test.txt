@@ -1,0 +1,21 @@
+Questions and Answers for RAG Testing
+
+
+Question 1: What is the vision of TechNova?
+Answer: TechNova's vision is to revolutionize how businesses operate by harnessing the power of cloud technology, providing scalable solutions that enable businesses of all sizes to optimize their operations and embrace digital transformation efficiently and cost-effectively.
+
+Question 2: Can you list some products offered by TechNova?
+Answer: TechNova offers several cloud-based products including CloudStrato, which is a platform-as-a-service for managing applications; DataSync, a data integration tool for managing data across different cloud platforms; and SecureGate, a security framework designed to protect cloud architectures from cyber threats.
+
+Question 3: What solutions does TechNova provide for enterprise cloud transition?
+Answer: TechNova provides a solution called Enterprise Cloud Transition, which assists traditional businesses in their digital transformation journey with step-by-step implementation strategies. This includes everything from initial planning to full deployment and optimization.
+
+Question 4: How can I contact TechNova for more information?
+Answer: You can contact TechNova by email at contact@technova.io, by phone at +1 (800) 123-4567, or visit their website at www.technova.io. Their headquarters are located at 500 Innovation Drive, Silicon Valley, CA, 94088, USA.
+
+Question 5: What are the working hours for TechNova's customer service team?
+Answer: TechNova's customer service team is available Monday through Friday, from 8 AM to 5 PM PST.
+
+Additional Question to Test Deeper Understanding
+Question 6: How does TechNova's SecureGate product enhance cloud security?
+Answer: SecureGate is an advanced security framework designed to protect cloud architectures from evolving cyber threats. It offers robust security measures that prevent unauthorized access and ensure data integrity across cloud platforms.

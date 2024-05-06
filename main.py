@@ -1,38 +1,57 @@
-# Import Flask and necessary components
 from flask import Flask, request, jsonify
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
-from llama_index.embeddings.ollama import OllamaEmbedding
 from llama_index.llms.ollama import Ollama
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-
-# Create Flask application
 app = Flask(__name__)
 
-# Initialize your LlamaIndex outside of the request handling to save loading time
-documents = SimpleDirectoryReader("data").load_data()
-Settings.embed_model = OllamaEmbedding(model_name="nomic-embed-text")
-Settings.llm = Ollama(model="phi3", request_timeout=3600.0)
-index = VectorStoreIndex.from_documents(documents)
-query_engine = index.as_query_engine()
+# Load environment variables from a .env file into the environment
+load_dotenv()
+
+# Set the embedding model and LLM settings
+Settings.embed_model = HuggingFaceEmbedding(model_name="intfloat/e5-large-v2")
+Settings.llm = Ollama(model="llama3", request_timeout=360.0)
+
+# Initialize document loading and indexing outside of request handling to save loading time
+try:
+    documents = SimpleDirectoryReader("Data").load_data()
+    index = VectorStoreIndex.from_documents(documents)
+    query_engine = index.as_query_engine()
+except Exception as e:
+    index = None
+    query_engine = None
+    print(f"Failed to initialize document index: {e}")
+
+# Helper function to serialize NodeWithScore objects or any non-serializable objects
+def serialize_response(response):
+    if isinstance(response, list):
+        return [serialize_response(item) for item in response]
+    elif hasattr(response, 'to_dict'):
+        return response.to_dict()
+    elif hasattr(response, '__dict__'):
+        return response.__dict__
+    return str(response)  # As a fallback, convert to string if it's not a list or doesn't have a dictionary representation
+
+
 
 @app.route('/query', methods=['POST'])
 def handle_query():
-    # Get data from POST request
+    if not query_engine:
+        return jsonify({'error': 'Indexing not initialized'}), 500
+
     data = request.get_json()
     query = data.get('query')
-    
-    # Check if the query is provided
+
     if not query:
         return jsonify({'error': 'No query provided'}), 400
-    
-    # Execute the query using your LlamaIndex query engine
-    response = query_engine.query(query)
-    
-    # Return the response as JSON
-    return jsonify({'response': response})
+
+    try:
+        response = query_engine.query(query)
+        print('response = ', response)
+        return jsonify({'response': str(response)})
+    except Exception as e:
+        return jsonify({'error': f'Error during query execution: {str(e)}'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=3000, debug=True)

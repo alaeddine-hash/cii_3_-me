@@ -1,0 +1,10 @@
+TechNova offers a comprehensive suite of cloud-based products including:
+
+CloudStrato: A versatile platform-as-a-service that allows developers to create,
+manage, and scale applications in a cloud environment seamlessly.
+
+DataSync: A robust data integration tool that facilitates the efficient syncing and
+management of data across various cloud platforms.
+
+SecureGate: An advanced security framework designed to protect cloud architectures
+from evolving cyber threats.
