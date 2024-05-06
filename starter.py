@@ -15,7 +15,7 @@ documents = SimpleDirectoryReader("data").load_data()
 Settings.embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 
 # Configure the LLM (large language model) settings with model 'llama3' and a request timeout of 360.0 seconds
-Settings.llm = Ollama(model="llama3", request_timeout=360.0)
+Settings.llm = Ollama(model="phi3", request_timeout=3600.0)
 
 # Create an index for the loaded documents using VectorStoreIndex
 index = VectorStoreIndex.from_documents(documents)
@@ -24,7 +24,7 @@ index = VectorStoreIndex.from_documents(documents)
 query_engine = index.as_query_engine()
 
 # Execute a query on the query engine asking about the author's childhood activities
-response = query_engine.query("What did the author do growing up?")
+response = query_engine.query("if you can resume me the file with  the title Embracing Uncertainty in Startups?")
 
 # Print the response obtained from the query engine
 print(response)
