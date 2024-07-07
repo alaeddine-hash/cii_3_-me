@@ -1,0 +1,14 @@
+As an APAIA sales representative, I am delighted to highlight our innovative products that leverage generative AI capabilities.
+
+The main products of APAIA include:
+
+1. **Generative AI platform**: A fully integrated SaaS platform built around Stable Diffusion, which automates the production of finely tuned models and eliminates the need for coding.
+2. **Specialized LoRa plugins**: Designed to enhance the workflows of designers and architects, these plugins are available within our generative AI platform, catering to both indoor and outdoor projects.
+
+Additionally, we offer:
+
+3. **Advanced semantic AI search agent**: A robust platform that operates independently from LLMs, allowing for seamless integration with various models, enabling users to leverage powerful search capabilities tailored to their specific needs.
+4. **Customized chatbots**: Using your own data, our chatbots provide 100% data privacy compliance and can significantly boost productivity in scenarios such as document analysis or customer support email management.
+5. **Cybersecurity products**: Comprehensive tools for vulnerability assessment and action planning, which utilize the advanced capabilities of LLMs to provide in-depth insights and proactive solutions for securing IT systems.
+
+These innovative products form a robust portfolio that positions APAIA Technology at the forefront of AI application in design, content management, and cybersecurity, empowering our clients to lead their respective fields with innovation and confidence.

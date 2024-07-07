@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings, Prompt
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from dotenv import load_dotenv
@@ -38,46 +38,24 @@ def serialize_response(response):
     return str(response)  # As a fallback, convert to string if it's not a list or doesn't have a dictionary representation
 
 
-def addingLanguage(language='Japanese'):
-    result = "Context information is provided below.\n" + "-------------------\n" + "{context_str}\n" + "-------------------\n" + "Based on this information, as an APAIA  representative, "+", Some rules to follow:\n1. Never directly reference the given context in your answer.\n2. Avoid statements like 'Based on the context, ...' or 'The context information ...' or anything along those lines .' or 'As an APAIA  representative,' "  + " please answer the following question in" + " " + language + " text only: {query_str}\n"
-    return result
-
 
 @app.route('/query', methods=['POST'])
 def handle_query():
-    global query_engine
     if not query_engine:
         return jsonify({'error': 'Indexing not initialized'}), 500
 
     data = request.get_json()
     query = data.get('query')
-    language = data.get('language')
-
-    print('language = ', language)
 
     if not query:
         return jsonify({'error': 'No query provided'}), 400
-    
-    if not language:
-        language = 'english'
-    
-    template = (addingLanguage(language))
-    qa_template = Prompt(template)
-
-
-
 
     try:
-        query_engine = index.as_query_engine(text_qa_template=qa_template)
         response = query_engine.query(query)
         print('response = ', response)
         return jsonify({'response': str(response)})
     except Exception as e:
         return jsonify({'error': f'Error during query execution: {str(e)}'}), 500
 
-""" if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000, debug=True, ssl_context=('/etc/ssl/certs/apache-selfsigned.crt', '/etc/ssl/private/apache-selfsigned.key')) """
-
-
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000, debug=True) 
+    app.run(host='0.0.0.0', port=3000, debug=True, ssl_context=('/etc/ssl/certs/apache-selfsigned.crt', '/etc/ssl/private/apache-selfsigned.key'))

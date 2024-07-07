@@ -1,0 +1,81 @@
+__________________SOLUTIONS___________________
+
+
+
+
+Transform your business thanks to generative AI, by industrialising practical use 
+cases with high value for your businesses. Our expertise in LLM and generative AI, 
+supported by a team of business consultants, data scientists and AI experts, makes us 
+the partner of choice.
+
+
+
+Our Generative AI offering covers 4 areas:
+
+•	Identification and ideation: Identification of high value-added use cases, 
+combining your needs with the new possibilities offered by Generative AI, 
+
+•	Prioritisation of business cases and drawing up of a roadmap
+
+•	Training and acculturation: workshops on generative AI for leadership teams, 
+LLMs, digital solutions, etc.
+
+•	Technical management: selecting the best technical solutions to meet company’s needs
+
+•	Industrialisation of use cases: development and industrialisation of the use cases 
+identified during the identification mission.
+
+
+Use cases implemented by AI thanks to generative AI include leveraging private 
+knowledge base, understanding and analysing unstructured data from vertical market 
+(market intelligence, customer needs and comments, plans, regulatory documents, etc.), 
+increasing productivity (content generation, automation, etc.), solving complex problems, 
+designing complex plans and products (industrial blueprints, technical components, etc.), 
+improving customer relationships, cyber security, etc.
+
+
+
+
+•	Example 1: APAIA TECHNOLOGY is reshaping the landscape of digital design and security 
+with its innovative product offerings. Our fully integrated SaaS platform, built 
+around Stable Diffusion, is a game-changer for professionals in design and architecture. 
+This platform not only automates the production of finely tuned models but also 
+eliminates the need for coding, making advanced AI tools accessible to everyone. 
+Additionally, we offer specialized LoRa plugins within the platform, designed 
+specifically to enhance the workflows of designers and architects, whether they 
+are working on indoor or outdoor projects.
+
+•	Example 2: Beyond design solutions, APAIA TECHNOLOGY has developed an advanced 
+semantic AI search agent capable of handling vast datasets. This robust platform 
+operates independently from LLMs, allowing for seamless integration with both 
+open-source models installed on-premises and large proprietary language models 
+hosted in the cloud. This versatility ensures that users can leverage powerful 
+search capabilities tailored to their specific needs and environments.  One of 
+the applications made possible by this platform is the ability to create customized 
+chatbots using your own data with a 100% data privacy compliance. Do you need to sift 
+through multiple reports spanning over a hundred pages for specific information? Have 
+thousands of customer support emails from which you’d like to extract insights? Or 
+perhaps you wish to make your company’s knowledge base more accessible to your employees? 
+In all these scenarios, a personalized chatbot could significantly boost your 
+productivity. These chatbots rely on ‘Question Answering,’ a natural language 
+processing (NLP) technique that facilitates interactive dialogue with textual 
+documents. Regardless of the document’s format – be it PDF, Word, PowerPoint, etc. 
+– the chatbot can answer your queries, citing the exact sources from which it 
+derived its response. APAIA TECHNOLOGY leverages its technical expertise to provide 
+chatbot that offers the best possible performance, ensuring its responses are both 
+comprehensive and relevant.
+
+
+•	Example 3: in the realm of cybersecurity, APAIA TECHNOLOGY stands out with its 
+unique products that utilize the advanced capabilities of LLMs for security analysis. 
+We have developed comprehensive tools for vulnerability assessment and action planning, 
+which are essential for securing IT systems. These products provide in-depth insights 
+and proactive solutions to help businesses safeguard their digital infrastructure 
+against emerging threats.
+
+
+
+Together, these business cases form a robust portfolio that places APAIA TECHNOLOGY 
+at the cutting edge of AI application in design, content management, and cybersecurity, 
+empowering our clients to lead in their respective fields with innovation and confidence.
+

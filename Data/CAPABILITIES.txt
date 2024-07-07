@@ -1,0 +1,27 @@
+__________________CAPABILITIES___________________
+
+
+
+Visual AI
+At APAIA TECHNOLOGY, we are at the forefront of revolutionizing the design industry with 
+our state-of-the-art Generative AI solutions. 
+Utilizing advanced diffusion models like Stable Diffusion, we provide powerful tools 
+tailored for designers and architects, both for indoor and outdoor environments. 
+Our technology enables professionals to rapidly prototype and visualize projects 
+with unprecedented accuracy and detail, accelerating the creative process and 
+reducing time to market.
+
+LLMs
+In addition to our expertise in visual AI, APAIA TECHNOLOGY is a leader in the 
+development of solutions based on large language models (LLMs), RAG (Retrieval Augmented 
+Generation) and advanced Distributed AI Agents frameworks.
+Our deep expertise extends to open-source models such as Mistral, Llama3, and Groq. 
+These platforms allow us to harness the power of AI to generate text, code, and 
+complex data analyses, offering our clients innovative ways to enhance their 
+workflows and increase productivity.
+
+Through our comprehensive suite of AI tools, APAIA TECHNOLOGY empowers professionals 
+across various industries to unlock new possibilities and transform their creative 
+visions into reality. Our commitment to innovation and quality ensures that every 
+solution we offer not only meets but exceeds the expectations of our clients, 
+setting new standards in the AI-driven design landscape.

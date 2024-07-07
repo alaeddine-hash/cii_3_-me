@@ -1,4 +1,102 @@
-At TechNova,
-our vision is to revolutionize how businesses operate by harnessing the power of cloud technology.
-We aim to provide cutting-edge, scalable solutions that enable businesses of all sizes to optimize
-their operations and embrace digital transformation efficiently and cost-effectively
+__________________ VISION _& MISSION____________________
+
+
+
+
+APAIA TECHNOLOGY vision of the technology:
+Generative AI, which development follows a typical disruptive innovation curve, 
+has entered the acceleration phase since 2019 with 5 key drivers :
+•	Platform industrialization
+•	Mix of expert architecture
+•	Spreading of transformer architecture to computer vision
+•	Access and tailored applications development
+•	Calculation capacity continuous increase
+Genarative AI relies on 3 articulated stacks:
+•	IT infrastructure for inference
+•	Trained LLM
+•	Access to LLM and tailored applications
+ Trained LLM also relies on three additional preparing stacks:
+•	IT infrastructure for training
+•	Huge training dataset
+•	Neuronal networks based on “transformer” architecture
+Model size in terms of number of parameters has been times by 15000 since the 
+introduction of transformer architecture in 2017  
+Consequently, training costs which increase according to the square of the number 
+of parameters of the model has soared to hundreds of millions of $
+Questions remains for the future model size, since computation capacity regular 
+increase since decades has to overcome new physical barriers to continue
+To reduce training costs and above all inference costs, lots of new models are 
+built on a « Mix of Experts » architecture
+The « mix of experts » architecture enables to significantly reduce inference 
+costs while maintaining high level of performance
+Powerful results of transformers applied to NLP have to extended to computer 
+vision neuronal networks with vision transformer (VIT)
+Access and apps industrialisation is leading to two main types of value propositions:
+•	Turnkey solutions such as open AI chat GPT, Claude 3 Antropic, or Microsoft copilot
+•	Toolbox solutions such as Llama 3, Mistral AI, Private GPT
+APAIA TECHNOLOGY vision is that turnkey solutions are appropriated for initial 
+individual use which do not involve private data, and that toolbox solutions are 
+appropriated either for use involving private data or for medium to high level of 
+use with automation expectations.
+
+APAIA TECHNOLOGY vision of its impact on businesses:
+Benefits of Generative AI are expected to be  two-fold: through both improvements 
+in productivity, and  fundamental changes to customer value proposition.
+By automating or augmenting  repetitive tasks, Generative AI models can  unlock cost 
+benefits in back office  processes, and/or revenue growth  via improvements in service  
+delivery, personalization, or customer experience.
+By synthesizing large volumes of  complex data, Generative AI models can  enable new 
+offerings; while some  industries likely to remain  unaffected, many will benefit from  
+complementary offerings and others may be exposed to new competition.
+Business functions that will likely see extensive or  eventually full automation, 
+resulting in one or more of cost reductions, demand generation  due to via higher 
+quality service, or ability to  focus resources on higher-value tasks are :
+•	Marketing & advertising
+•	Customer service
+•	Legal
+•	Software development
+•	Research services & knowledge management
+Businesses whose offerings can be entirely replaced with Generative AI services, 
+being both undifferentiated / commoditized and not dependent on making or tracking a 
+change in a  customer's physical environment are:
+•	Translation services
+•	Personal assistants, Chatbots
+•	Public information aggregators
+•	Fact-based reporting (e.g., sports results)
+
+
+
+APAIA Technology mission in that context:
+Our mission is to democratize generative AI, making it accessible and affordable 
+for every business. We are dedicated to pushing the boundaries of AI to simplify 
+and enhance business functions that are highly impacted from all industries. We are 
+also helping businesses whose offerings can be entirely replaced with Generative AI 
+services adapting their strategy and implementing new services.
+
+#### Customer-Centric Innovation
+
+Our commitment extends beyond technological advancements; APAIA TECHNOLOGY stands as 
+a customer-centric company at its core. We believe in building strong relationships 
+with our clients, focusing on understanding and meeting their needs with precision 
+and empathy. This approach ensures that our innovations are not only cutting-edge but 
+also deeply relevant and valuable to our community.
+
+#### A Culture of Excellence
+
+At APAIA TECHNOLOGY, fostering excellence is integral to our ethos. We are committed 
+to upholding the highest standards in every aspect of our operations, from the AI 
+solutions we design and develop to the support we provide to our stakeholders. Our 
+dedication to quality shapes our workplace, encouraging our team to strive for 
+excellence and deliver outstanding results.
+
+#### A Vibrant and Creative Workspace
+
+APAIA TECHNOLOGY is more than just a workplace; it is a hub of creativity and innovation. 
+We champion a fun and engaging environment where new ideas flourish. Our team members 
+are encouraged to think boldly and creatively, experimenting with new concepts in a 
+supportive and dynamic setting. At APAIA TECHNOLOGY, every day is an opportunity to 
+innovate and inspire.
+
+Together, we are creating a future where AI enhances every aspect of the design process, 
+making it faster, more efficient, and infinitely more creative. Join us on this exciting 
+journey as we continue to innovate, empower, and lead in the generative AI space.

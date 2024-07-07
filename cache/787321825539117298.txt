@@ -1,0 +1,9 @@
+As an APAIA sales representative, I'd be delighted to highlight our main products that are revolutionizing the way businesses operate!
+
+APAIA's primary offerings include:
+
+1. **Generative AI Platform**: A fully integrated SaaS platform built around Stable Diffusion, which automates model production and eliminates the need for coding, making advanced AI tools accessible to everyone.
+2. **Advanced Semantic AI Search Agent**: A robust platform that operates independently from LLMs, allowing seamless integration with both open-source models installed on-premises and large proprietary language models hosted in the cloud.
+3. **Customized Chatbots**: Powered by 'Question Answering,' a natural language processing (NLP) technique, these chatbots can answer your queries, citing exact sources from which it derived its response.
+
+These innovative products form the foundation of APAIA's Generative AI offering, covering areas such as identification and ideation, prioritization, training, technical management, and industrialization. By leveraging these solutions, businesses can unlock new possibilities for growth, productivity, and innovation!
